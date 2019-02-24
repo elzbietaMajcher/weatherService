@@ -1,3 +1,12 @@
+Name: Weather Service 
+
+Simple application REST API, where user is asking about current weather (temperature) for an indicated city. If in database exist information about current whether and is no older than 60 minutes program will return info from db. In other case, program is sending query do the external api, saving response in db and showing it to the client. 
+
+Technology: Java, Spring-boot, MySQL (Workbench),  Lombok, Postman 
+
+
+
+
 REST client/server
 ==================
 
